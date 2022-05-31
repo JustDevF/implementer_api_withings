@@ -1,17 +1,17 @@
 <?php 
 //paramètrage de l'API GOOGLE OAuth
 //définision des constants pour récuprér le id Client et le code secret de l'api google oAuth
-define('GOOGLE_ID', '286540414152-1lp5ul3bdgi045f7v6v499pa7aes7pmi.apps.googleusercontent.com');
-define('GOOGLE_SECRET', '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');
+define('GOOGLE_ID', '##');
+define('GOOGLE_SECRET', '##');
 
 //Déclaration des constantes 
 define('TYPE_REPONSE', 'code');
-define('ID_CLIENT', 'd3e5e6275acaa8bf3d8989e494ddba74864e21fb5548d0efa0fbe032e3757968');
+define('ID_CLIENT', '##');
 define('ETAT', 'Vérifiée');
 define('PORTEE', 'user.metrics');
 define('REDIRECT_URI', 'http://localhost/test_api_withings/connect.php');
 define('MODE', 'demo');
-define('CLIENT_SECRET', "3db32d2fd128403ac173d1b7b397f37d2c235315af8fb63f4806c5819079898c");
+define('CLIENT_SECRET', "##");
 define('AUTORIZATION', 'authorization_code');
 
 if(isset($_GET['code'])){
